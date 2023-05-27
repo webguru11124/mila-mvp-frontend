@@ -7,7 +7,7 @@ interface Props {
 }
 
 const CustomBtn: FC<Props> = props => {
-    const hoverStyle = { bgColor: 'brand.secondary', color: 'brand.text' }
+    const hoverStyle = { bgColor: 'brand.hover', color: 'brand.text' }
 
     return (
         <Button bgColor={'brand.primary'} onClick={props.onClick} px={6} color={'white'} _hover={hoverStyle}>

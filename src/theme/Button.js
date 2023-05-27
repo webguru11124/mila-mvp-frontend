@@ -1,15 +1,15 @@
 const Button = {
     baseStyle: {
-        // borderRadius: "3xl",
-        textTransform: "uppercase",
-        fontWeight: "bold",
+        borderRadius: 'xl',
+        textTransform: 'uppercase',
+        fontWeight: 'bold',
     },
     sizes: {
         sm: {
-            fontSize: "10px",
+            fontSize: '10px',
         },
         md: {
-            fontSize: "14px",
+            fontSize: '14px',
         },
     },
 }

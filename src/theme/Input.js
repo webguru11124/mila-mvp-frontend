@@ -1,9 +1,9 @@
 const Input = {
     baseStyle: {
-        borderRadius: "2px",
+        borderRadius: '2px',
     },
     defaultProps: {
-        focusBorderColor: "green.300",
+        focusBorderColor: 'brand.hover',
     },
 }
 

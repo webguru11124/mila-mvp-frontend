@@ -1,9 +1,9 @@
 'use client'
 
-import React, { FC } from 'react'
-import { Container, Flex, Heading, Text, VStack } from '@chakra-ui/react'
 import CustomBtn from '@/components/CustomBtn'
+import { Container, Flex, Heading, Text, VStack } from '@chakra-ui/react'
 import { useRouter } from 'next/navigation'
+import React, { FC } from 'react'
 
 interface Props {
     children?: React.ReactNode | React.ReactNode[]
@@ -24,7 +24,7 @@ const Dashboard: FC<Props> = props => {
                     </Text>
                     <CustomBtn
                         onClick={async () => {
-                            await push('/chat')
+                            push('/user/login')
                         }}>
                         Login as user
                     </CustomBtn>

@@ -2,7 +2,7 @@
 
 import React, { FC } from 'react'
 import { Avatar, Box, Container, HStack, Image } from '@chakra-ui/react'
-import logo from '@/app/(assets)/img/mila-logo.svg'
+import logo from '@/assets/img/mila-logo.svg'
 
 interface Props {
     children?: React.ReactNode | React.ReactNode[]
@@ -30,7 +30,11 @@ const Header: FC<Props> = props => {
                         <Image src={logo.src} alt={'mila'} />
                     </Box>
                     <Box>
-                        <Avatar />
+                        <Avatar
+                            src={
+                                'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/388.jpg'
+                            }
+                        />
                     </Box>
                 </HStack>
             </Container>
