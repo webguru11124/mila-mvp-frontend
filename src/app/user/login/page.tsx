@@ -1,14 +1,14 @@
 'use client'
-import React, { FC } from 'react'
-import { Box, Center, SimpleGrid } from '@chakra-ui/react'
 import LoginContent from '@/app/user/login/LoginContent'
 import LoginForm from '@/app/user/login/LoginForm'
+import { Box, Center, SimpleGrid } from '@chakra-ui/react'
+import React, { FC } from 'react'
 
-interface Props {
-    children?: React.ReactNode | React.ReactNode[]
+type Props = {
+    children?: React.ReactNode
 }
 
-const LoginPage: FC<Props> = props => {
+const LoginPage: FC = (props: Props) => {
     return (
         <>
             <Box h={'100vh'} overflow={'hidden'}>
