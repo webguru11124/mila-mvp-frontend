@@ -34,7 +34,7 @@ const Listening: FC<Props> = props => {
             <IconButton
                 aria-label="Voice search"
                 icon={<MdSettingsVoice />}
-                bgColor={'brand.hover'}
+                bgColor={'white'}
                 fontSize={'2xl'}
                 onClick={onOpen}
             />
