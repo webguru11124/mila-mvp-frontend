@@ -38,3 +38,19 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 Chakra UI is a simple, modular and accessible component library that gives you the building blocks you need to build your React applications.
 
 - Official site [link](https://chakra-ui.com/)
+
+### Colors used
+
+`src/theme/colors.js`
+
+```js
+brand: {
+    primary: '#5a56e9',
+    secondary: '#ffdb5e',
+    bodyBg: '#EAEFF3',
+    text: '#27282d',
+    hover: '#fab8c6',
+    active: '#ffdb5e',
+    border: '#27282d',
+}
+```
