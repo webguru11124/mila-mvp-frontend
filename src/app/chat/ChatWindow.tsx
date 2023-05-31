@@ -81,6 +81,7 @@ const ChatWindow: FC<Props> = props => {
     type InputEvent = React.ChangeEvent<HTMLInputElement>
     const handleChange = (event: InputEvent) => setMessageBoxValue(event.target.value)
 
+    // go to page last
     const goToLast = () => {
         const divHeight = chatHistoryRef.current?.scrollHeight
         chatHistoryRef.current?.scrollTo({
