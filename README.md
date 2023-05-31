@@ -39,7 +39,7 @@ Chakra UI is a simple, modular and accessible component library that gives you t
 
 - Official site [link](https://chakra-ui.com/)
 
-### Colors used
+#### Colors used
 
 `src/theme/colors.js`
 
@@ -54,3 +54,9 @@ brand: {
     border: '#27282d',
 }
 ```
+
+#### Font used
+
+`Poppins`
+
+- Font [link](https://fonts.google.com/specimen/Poppins)
