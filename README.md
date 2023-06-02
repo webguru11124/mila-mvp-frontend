@@ -60,5 +60,3 @@ brand: {
 `Poppins`
 
 - Font [link](https://fonts.google.com/specimen/Poppins)
-
-Testing
